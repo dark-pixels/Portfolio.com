@@ -1,0 +1,50 @@
+/* .sslc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+.sslclogo{
+  text-align: left;
+  border-radius: 50px;
+  width: 10%;
+}
+.sslcabt{
+  color: aliceblue;
+  width: 150%;
+  padding-left: 3%;
+}
+.hsclogo{
+  text-align: left;
+  border-radius: 50px;
+  width: 10%;
+
+}
+.HSC{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3%;
+
+}
+.HSCabt{
+  color: aliceblue;
+  width: 150%;
+  padding-left: 3%;
+}
+.clglogo{
+  text-align: left;
+  border-radius: 50px;
+  width: 10%;
+}
+.college{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+.clgabt{
+  color: aliceblue;
+  width: 150%;
+  padding-left: 3%;
+} */
