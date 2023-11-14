@@ -16,6 +16,7 @@ header{
 }
 body{
   background-color: black;
+  background: url(d184594cc3aa95e29b6105c5448a1a01.jpg);
 }
 
 .homeimg{
@@ -50,7 +51,7 @@ h3{
 }
 
 .homebox{
-  background: url(d184594cc3aa95e29b6105c5448a1a01.jpg);
+  /* background: url(d184594cc3aa95e29b6105c5448a1a01.jpg); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
@@ -58,14 +59,8 @@ h3{
   justify-content: space-around;
 }
 
-@media screen and (max-width: 768px) {
-   .body{
-    flex-wrap: wrap;
-   }
-   .photo{
-     min-width: 100%;
-   }
-}
+
+
 .gokul{
   display: flex;
   flex-direction: column;
@@ -74,7 +69,7 @@ h3{
 p{
   
   color:gold;
-  font-size: 150%;
+  font-size: 200%;
   font-family: Apple Chancery, cursive;
   font-weight: bold;
   padding-left: 3%;
@@ -95,7 +90,7 @@ p{
 .name{
   text-align: center;
   color:gold;
-  font-size: 300%;
+  font-size: 400%;
   font-family: Apple Chancery, cursive;
   font-weight: bold;
   display: inline-block;
@@ -110,7 +105,7 @@ p{
   background-color: black;
 }
 .educationbox{
-  background: url(milky-way-starry-sky-night-sky-star-957061.jpeg);
+  /* background: url(milky-way-starry-sky-night-sky-star-957061.jpeg); */
   background-repeat: no-repeat;
   background-size: 100% 100% ;
 }
@@ -170,7 +165,7 @@ p{
 }
 
 .projectsbox{
-  background: url(desktop-wallpaper-texture-black-stone-surface-u-16-9-background-dark-stone.jpg);
+  /* background: url(desktop-wallpaper-texture-black-stone-surface-u-16-9-background-dark-stone.jpg); */
   /* background-repeat: no-repeat; */
   background-size: 100%;
 }
@@ -245,7 +240,7 @@ p{
   margin-bottom: 3%;
 }
 .skillbox{
-  background: url(Picsart_23-11-10_20-17-39-414.jpg);
+  /* background: url(Picsart_23-11-10_20-17-39-414.jpg); */
   /* background-repeat: no-repeat; */
   background-size: 100%;
 }
@@ -262,7 +257,8 @@ p{
   display: flex;
   flex-direction: column;
   padding: 0%;
-  /* align-items: center; */
+  align-items: center;
+
 }
 .lpara{
   display:inline-block;
@@ -282,6 +278,8 @@ p{
   padding: 0%;
   display: inline;
   /* margin-left: 20%; */
+  background-color: rgb(5, 5, 4);
+  width: fit-content;
 
 
 }
@@ -292,7 +290,7 @@ p{
   color: rgb(214, 218, 7);
 }
 .contactbox{
-  background: url(360_F_191783282_0TVrx5VrvrkpDHSKdjjI87HkbXJy5TMw.jpg);
+  /* background: url(360_F_191783282_0TVrx5VrvrkpDHSKdjjI87HkbXJy5TMw.jpg); */
   background-repeat: no-repeat;
   background-size: 100%;
 }
