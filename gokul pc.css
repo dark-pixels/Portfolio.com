@@ -150,7 +150,7 @@ h3{
   /* margin: 3%; */
   /* margin: auto;
    */
-   background: url(121622640-eye-with-light-beam-shine-rays-background-illustration-new-quality-universal-colorful-joyful-nice.jpg);
+   background: url(eyes.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   border-color: black;
@@ -161,7 +161,7 @@ h3{
   width: fit-content;
   border-radius: 86% 14% 16% 83% / 54% 16% 83% 45% ;
   padding: 5%;
-  padding-left: 20%;
+  padding-left: 36%;
 }
 
 .asslc{
@@ -335,6 +335,7 @@ justify-content: space-between;
   display: flex;
   flex-direction: column;
   margin-bottom: 3%;
+  text-align: center;
 }
 .oc{
   display: flex;
