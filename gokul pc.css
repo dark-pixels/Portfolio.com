@@ -1,0 +1,344 @@
+title{
+  color: green;
+}
+
+header{
+  background: gold;
+  border: ridge gold;
+  border-radius: 13em/3em;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: url(wp12326434.webp);
+
+}
+body{
+  background-color: black;
+}
+
+.homeimg{
+  
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 3%;
+}
+
+h3{
+  color: white;
+  padding: 30px;
+  display: inline;
+  text-decoration: none;
+
+}
+
+.homeimg{
+  padding: 0px;
+}
+
+
+
+
+.photo{
+  text-align: center;
+  border-right: round;
+  margin-top: 10%;
+  border-radius: 120px 20px 120px 20px;
+  margin-left: 20%;
+}
+
+.homebox{
+  background: url(d184594cc3aa95e29b6105c5448a1a01.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+   .body{
+    flex-wrap: wrap;
+   }
+   .photo{
+     min-width: 100%;
+   }
+}
+.gokul{
+  display: flex;
+  flex-direction: column;
+}
+
+p{
+  
+  color:gold;
+  font-size: 150%;
+  font-family: Apple Chancery, cursive;
+  font-weight: bold;
+  padding-left: 3%;
+  padding-top: 3%;
+  
+}
+
+.about{
+  background-color: black;
+  color: whitesmoke;
+  font-size: 150%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin: 2%;
+  border-radius: 10%;
+
+}
+.name{
+  text-align: center;
+  color:gold;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  font-weight: bold;
+  display: inline-block;
+  background-color: black;
+  
+}
+.linkedin{
+  width: 14%;
+  margin-left: 43%;
+  margin-right: 43%;
+  display: inline-block;
+  background-color: black;
+}
+.educationbox{
+  background: url(milky-way-starry-sky-night-sky-star-957061.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100% ;
+}
+.edtitle{
+  color: rgb(0, 190, 238);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 3%;
+  padding-left: 2%;
+  font-size: 200%;
+  text-decoration: dotted;
+}
+
+.logo{
+  text-align: left;
+  border-radius: 50%;
+  width: 15%;
+  margin: 2%;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3%;
+  margin-bottom: 10%;
+}
+.abt{
+  color: aliceblue;
+  width: 150%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top-left-radius: 200%;
+  border-bottom-left-radius: 200%;
+  border-top-right-radius: 200%;
+  border-bottom-right-radius: 200%;
+  margin: 3%;
+  
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-color: black;
+  color: whitesmoke;
+  background-color: rgba(50, 45, 85, 0.76);
+}
+.sname{
+  margin: 6%;
+  margin-right: 0%;
+}
+.asslc{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 6%;
+  margin-left: 0%;
+}
+.cname{
+  font-size:150%;
+
+}
+
+.projectsbox{
+  background: url(desktop-wallpaper-texture-black-stone-surface-u-16-9-background-dark-stone.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
+}
+.ptitle{
+  color: rgb(0, 190, 238);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ /* margin: 15%; */
+ padding-left: 5%;
+ padding-top: 3%;
+  font-size: 300%;
+  text-decoration: dotted;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+/* .p{
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+   */
+
+.pp{
+
+  border-radius: 50px;
+  width: 50%;
+}
+/* .pt{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+
+} */
+.p{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.t{
+  color: rgb(255, 251, 4);
+}
+.pabt{
+  /* margin-left: 15%; */
+  margin-bottom: 15%;
+  /* display: inline-block; */
+  background-color: rgba(63, 61, 172, 0.616);
+  padding: 0%;
+  margin-top: 5%;
+  border-radius: 50px;
+  font-size: x-large;
+  color: darkorange;
+  width: fit-content;
+  text-align: center;
+  
+  
+}
+.visitsat{
+  text-align: center;
+  color: rgb(19, 149, 20937);
+  background-color: black;
+  border-radius: 5px;
+}
+.pt{
+  margin-left:0%;
+}
+
+.p3t{
+  margin-left: 30%;
+  margin-right: 30%;
+} */
+.p5abt{
+  margin-bottom: 3%;
+}
+.skillbox{
+  background: url(Picsart_23-11-10_20-17-39-414.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
+}
+.stitle{
+  color: aliceblue;
+  padding: 0%;
+  padding-top: 3%;
+}
+.abtskill{
+  font-size: x-large;
+
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  /* align-items: center; */
+}
+.lpara{
+  display:inline-block;
+  background-color: rgba(127, 255, 212, 0.747);
+  border-radius: 20%;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.l{
+  
+  /* width: fit-content; */
+  margin-bottom: 10%;
+  /* background-color: rgba(255, 127, 80, 0.452); */
+  border-radius: 5%;
+  color: rgb(0, 255, 21);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0%;
+  display: inline;
+  /* margin-left: 20%; */
+
+
+}
+.emj{
+  color: deeppink;
+}
+.lk{
+  color: rgb(214, 218, 7);
+}
+.contactbox{
+  background: url(360_F_191783282_0TVrx5VrvrkpDHSKdjjI87HkbXJy5TMw.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.ctitle{
+  color: rgb(0, 190, 238);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ /* margin: 15%; */
+ padding-left: 1%;
+ padding-top: 0%;
+  font-size: 300%;
+  text-decoration: dotted;
+  display: flex;
+  flex-direction: column;
+}
+.oc{
+  display: flex;
+  flex-direction: column;
+  font-size: 200%;
+  color: aliceblue;
+}
+.phone{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.personalm{
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+.companym{
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.icon{
+display: inline;
+/* align-items: center; */
+margin-top: 0%;
+margin-left: 1%;
+margin-bottom: 5%;
+}
+footer{
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 8%;
+}
+
+
