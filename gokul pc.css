@@ -17,6 +17,7 @@ header{
 body{
   background-color: black;
   background: url(d184594cc3aa95e29b6105c5448a1a01.jpg);
+  background-size: 100%;
 }
 
 .homeimg{
@@ -48,10 +49,11 @@ h3{
   margin-top: 10%;
   border-radius: 120px 20px 120px 20px;
   margin-left: 20%;
+  
 }
 
 .homebox{
-  /* background: url(d184594cc3aa95e29b6105c5448a1a01.jpg); */
+  /* background: url(pexels-francesco-ungaro-998641.jpg ); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
@@ -66,7 +68,7 @@ h3{
   flex-direction: column;
 }
 
-p{
+.hello{
   
   color:gold;
   font-size: 200%;
@@ -74,7 +76,7 @@ p{
   font-weight: bold;
   padding-left: 3%;
   padding-top: 3%;
-  
+  text-align: left;
 }
 
 .about{
@@ -94,7 +96,9 @@ p{
   font-family: Apple Chancery, cursive;
   font-weight: bold;
   display: inline-block;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.527);
+  border-radius: 300%;
+  
   
 }
 .linkedin{
@@ -105,16 +109,16 @@ p{
   background-color: black;
 }
 .educationbox{
-  /* background: url(milky-way-starry-sky-night-sky-star-957061.jpeg); */
+  /* background: url(32.03b5a1c2ac384040f5a1c792a836a15673cf8be7bc2f45428ea53a7ddc4e0aa1987b.); */
   background-repeat: no-repeat;
   background-size: 100% 100% ;
 }
 .edtitle{
   color: rgb(0, 190, 238);
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding-top: 3%;
+  padding-top: 2%;
   padding-left: 2%;
-  font-size: 200%;
+  font-size: 135%;
   text-decoration: dotted;
 }
 
@@ -127,32 +131,39 @@ p{
 .box{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   padding-top: 3%;
   margin-bottom: 10%;
 }
 .abt{
   color: aliceblue;
-  width: 150%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  border-top-left-radius: 200%;
+  /* width: 150%; */
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: space-around; */
+  
+
+  
+  /* border-top-left-radius: 200%;
   border-bottom-left-radius: 200%;
   border-top-right-radius: 200%;
-  border-bottom-right-radius: 200%;
-  margin: 3%;
-  
+  border-bottom-right-radius: 200%; */
+  /* margin: 3%; */
+  /* margin: auto;
+   */
+   background: url(121622640-eye-with-light-beam-shine-rays-background-illustration-new-quality-universal-colorful-joyful-nice.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   border-color: black;
   color: whitesmoke;
-  background-color: rgba(50, 45, 85, 0.76);
+  /* background-color: rgba(28, 73, 77, 0.76); */
+  margin-left: 0%;
+  margin-top: 3%;
+  width: fit-content;
+  border-radius: 86% 14% 16% 83% / 54% 16% 83% 45% ;
+  padding: 5%;
+  padding-left: 20%;
 }
-.sname{
-  margin: 6%;
-  margin-right: 0%;
-}
+
 .asslc{
   
   font-family: Arial, Helvetica, sans-serif;
@@ -165,7 +176,7 @@ p{
 }
 
 .projectsbox{
-  /* background: url(desktop-wallpaper-texture-black-stone-surface-u-16-9-background-dark-stone.jpg); */
+  /* background: url(4k-phone-background-blue-stars-in-space-o6jc5dh5iubz5h5m.jpg); */
   /* background-repeat: no-repeat; */
   background-size: 100%;
 }
@@ -173,9 +184,9 @@ p{
   color: rgb(0, 190, 238);
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  /* margin: 15%; */
- padding-left: 5%;
- padding-top: 3%;
-  font-size: 300%;
+ padding-left: 3%;
+ padding-top: 2%;
+  font-size: 250%;
   text-decoration: dotted;
   display: flex;
   flex-direction: column;
@@ -199,7 +210,7 @@ p{
 
 } */
 .p{
-  display: flex;
+ display: flex;
   flex-direction:column;
   align-items: center;
 }
@@ -211,22 +222,31 @@ p{
   /* margin-left: 15%; */
   margin-bottom: 15%;
   /* display: inline-block; */
-  background-color: rgba(63, 61, 172, 0.616);
+  /* background-color: rgba(63, 61, 172, 0.616); */
+  background: url(14b85bc4aefbbc7cdc88779ab6b9be2f.jpg);
+  background-repeat:no-repeat;
+  background-size: 100%;
   padding: 0%;
   margin-top: 5%;
   border-radius: 50px;
   font-size: x-large;
-  color: darkorange;
+  color: rgb(255, 251, 251);
   width: fit-content;
   text-align: center;
+  padding: 3%;
   
   
 }
 .visitsat{
   text-align: center;
-  color: rgb(19, 149, 20937);
-  background-color: black;
+  color: cornflowerblue;
+  background-color: rgb(0, 0, 0);
   border-radius: 5px;
+  padding: 0%;
+  background-color: black;
+  background: url(521089.jpg);
+  padding-left: 1%;
+  padding-right: 1%;
 }
 .pt{
   margin-left:0%;
@@ -240,47 +260,57 @@ p{
   margin-bottom: 3%;
 }
 .skillbox{
-  /* background: url(Picsart_23-11-10_20-17-39-414.jpg); */
+  /* background: url(desktop-wallpaper-vertical-cool-portrait-thumbnail.jpg); */
   /* background-repeat: no-repeat; */
   background-size: 100%;
 }
 .stitle{
-  color: aliceblue;
+  color: rgb(0, 190, 238);
   padding: 0%;
-  padding-top: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .abtskill{
   font-size: x-large;
 
 }
 .skills{
-  display: flex;
-  flex-direction: column;
+ /* display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ justify-content: space-around;
   padding: 0%;
-  align-items: center;
-
+  align-items: center; */
+  margin: auto;
 }
 .lpara{
   display:inline-block;
-  background-color: rgba(127, 255, 212, 0.747);
+  background-color: black;
+
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
   border-radius: 20%;
-  color: black;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0%;
+  margin-top: 0%;
+
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .l{
   
   /* width: fit-content; */
-  margin-bottom: 10%;
+  
   /* background-color: rgba(255, 127, 80, 0.452); */
-  border-radius: 5%;
+  
   color: rgb(0, 255, 21);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 0%;
-  display: inline;
+  
   /* margin-left: 20%; */
-  background-color: rgb(5, 5, 4);
+  background-color: rgba(5, 5, 4, 0.404);
   width: fit-content;
-
+border-radius: 10%;
+justify-content: space-between;
 
 }
 .emj{
@@ -299,44 +329,70 @@ p{
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  /* margin: 15%; */
  padding-left: 1%;
- padding-top: 0%;
+ /* padding-top: 2%; */
   font-size: 300%;
   text-decoration: dotted;
   display: flex;
   flex-direction: column;
+  margin-bottom: 3%;
 }
 .oc{
   display: flex;
   flex-direction: column;
   font-size: 200%;
   color: aliceblue;
+  justify-content: space-around;
+  background-color:rgba(0, 0, 0, 0.527);
+ 
+  
 }
 .phone{
   margin-top: 2%;
   margin-bottom: 2%;
+  width: fit-content;
 }
 .personalm{
   margin-top: 2%;
   margin-bottom: 2%;
+  width: fit-content;
 
 }
 .companym{
   margin-top: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
+  width: fit-content;
 }
 
 .icon{
-display: inline;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 /* align-items: center; */
 margin-top: 0%;
 margin-left: 1%;
-margin-bottom: 5%;
+margin-bottom: 12%;
+background-color: rgba(0, 0, 0, 0.37);
+border-color: rgb(255, 140, 0);
+border-radius: 50px;
+border: gold;
 }
 footer{
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: aliceblue;
   text-align: center;
-  margin-top: 8%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+/* Add these styles to your existing CSS file */
+.animated-element {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, transform 1s;
+}
+
+.animated-element.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 
