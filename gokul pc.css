@@ -232,7 +232,7 @@ h3{
   padding: 0%;
   margin-top: 5%;
   border-radius: 50px;
-  font-size: x-large;
+  /* font-size: x-large; */
   color: rgb(255, 251, 251);
   width: fit-content;
   text-align: center;
