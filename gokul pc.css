@@ -128,7 +128,8 @@ h3{
   text-align: left;
   border-radius: 50%;
   width: 15%;
-  margin: 2%;
+  margin: 3%;
+  margin-top: 6%;
 }
 .box{
   display: flex;
